@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="movie-search">
+    <form class="SubmitForm" >
+        
+        <p style="font-size: 30px;
+        font-family: 'Arial Bold';color:gold">Search Movies by:</p>
+        <div ><input type="radio" id="myCheck1" name="method" onclick="searchbytitle()" > Movie Name</div>
+        <div ><input type="radio" id="myCheck2" name="method" onclick="searchbygenre()" > Genre</div>
+    </form></div>
+        
+    <form class="moviesearch" style="display: none">
+    <div><input type="text" class="movietitle" placeholder="Enter movie title" >
+    <button type="submit">Search</button></div>
+    <div class="card" style="display: none">
+    </div>
+    </form>
+    
+
+    <form class="genresearch" style="display: none">
+    <div >   <p style="font-size: 30px;
+        font-family: 'Arial Bold';color:gold;background-color:#000000;"> Select genre:
+        <select id="select1" style="height: 90%;justify-self: center;">
+            <option value="28">Action</option>
+            <option value="12">Adventure</option>
+            <option value="16">Animation</option>
+            <option value="35">Comedy</option>
+            <option value="80">Crime</option>
+            <option value="99">Documentary</option>
+            <option value="18">Drama</option>
+            <option value="10751">Family</option>
+            <option value="14">Fantasy</option>
+            <option value="36">History</option>
+            <option value="27">Horror</option>
+            <option value="10402">Music</option>
+            <option value="9648">Mystery</option>
+            <option value="10749">Romance</option>
+            <option value="878">Science Fiction</option>
+            <option value="10770">TV Movie</option>
+            <option value="53">Thriller</option>
+            <option value="10752">War</option>
+            <option value="37">Western</option>
+
+        </select>
+    
+    
+    <button type="submit" style="align-self: center;">Search</button></p></div>
+    <div class="card2" style="display: none">
+    <button type="submit" id="nxtbtn">Next</button>
+    <button type="submit" id="prevbtn">Previous</button>
+    </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
