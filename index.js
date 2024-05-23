@@ -205,8 +205,8 @@ function displaymovies(i){
       yearDisplay.textContent = `Release Year: ${splitdt[0]}`;
       synopsisDisplay.textContent = `Synopsis: ${synopsis}`;
       posterDisplay.setAttribute('src', `https://image.tmdb.org/t/p/original/${imgsrc}`);
-      posterDisplay.setAttribute('height', '150px');
-      posterDisplay.setAttribute('width', '150px');
+      posterDisplay.setAttribute('height', '500px');
+      posterDisplay.setAttribute('width', '400px');
       nxtbtn.setAttribute('type', 'submit');nxtbtn.setAttribute('id', 'nxtbtn');nxtbtn.setAttribute('onclick', "nxt()");nxtbtn.textContent="Next";
       nxtbtn.style.display="inline";
       prevbtn.setAttribute('type', 'submit');prevbtn.setAttribute('id', 'prevbtn');prevbtn.setAttribute('onclick', "prev()");prevbtn.textContent="Prev";
