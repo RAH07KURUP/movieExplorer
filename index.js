@@ -94,8 +94,8 @@ function displaymovieInfo(data){
     yearDisplay.textContent = `Release Year: ${year}`;
     synopsisDisplay.textContent = `Synopsis: ${synopsis}`;
     posterDisplay.setAttribute('src', imgsrc);
-    posterDisplay.setAttribute('height', '150px');
-    posterDisplay.setAttribute('width', '150px');
+    posterDisplay.setAttribute('height', '500px');
+    posterDisplay.setAttribute('width', '400px');
 
     movieDisplay.classList.add("movieDisplay");
     yearDisplay.classList.add("yearDisplay");
