@@ -8,7 +8,7 @@ Web application to explore movies using title or genre <br>
 *Movie details are displayed on a card<br>
 *Genre selection is stored as id and given to api for fetching.<br>
 *Genre method has array of movies which can be traversed using prev and next buttons.<br>
-*Styling can be improved if given a little more time.<br>
+*Styling can be improved if given more time to it.<br>
 <br>
 ->Technologies Used:
 *Basic Web Application made by HTML,CSS,Javascript<br>
