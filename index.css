@@ -98,7 +98,7 @@ p{
 #prevbtn{
     z-index: 30;
 }
-.liner{width:600px;display: flex;justify-content: space-between;}
+.liner{width:600px;display: flex;justify-content: space-between;margin-top:30px;}
 .movie-search{
     background-color:#000000;
     border-radius: 10%;
