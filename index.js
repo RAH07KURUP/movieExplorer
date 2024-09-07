@@ -207,6 +207,7 @@ function displaymovies(i){
       posterDisplay.setAttribute('src', `https://image.tmdb.org/t/p/original/${imgsrc}`);
       posterDisplay.setAttribute('height', '500px');
       posterDisplay.setAttribute('width', '400px');
+      liner.setAttribute('class', 'liner');
       nxtbtn.setAttribute('type', 'submit');nxtbtn.setAttribute('id', 'nxtbtn');nxtbtn.setAttribute('onclick', "nxt()");nxtbtn.textContent="Next";
       nxtbtn.style.display="inline";
       prevbtn.setAttribute('type', 'submit');prevbtn.setAttribute('id', 'prevbtn');prevbtn.setAttribute('onclick', "prev()");prevbtn.textContent="Prev";
