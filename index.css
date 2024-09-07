@@ -59,7 +59,7 @@ button[type="submit"]:hover{
     padding: 50px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
-    width: 2000px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
