@@ -208,9 +208,9 @@ function displaymovies(i){
       posterDisplay.setAttribute('height', '500px');
       posterDisplay.setAttribute('width', '400px');
       liner.setAttribute('class', 'liner');
-      nxtbtn.setAttribute('type', 'submit');nxtbtn.setAttribute('id', 'nxtbtn');nxtbtn.setAttribute('onclick', "nxt()");nxtbtn.textContent="Next";
+      nxtbtn.setAttribute('type', 'submit');nxtbtn.setAttribute('id', 'nxtbtn');nxtbtn.setAttribute('onclick', "nxt()");nxtbtn.textContent=">>";
       nxtbtn.style.display="inline";
-      prevbtn.setAttribute('type', 'submit');prevbtn.setAttribute('id', 'prevbtn');prevbtn.setAttribute('onclick', "prev()");prevbtn.textContent="Prev";
+      prevbtn.setAttribute('type', 'submit');prevbtn.setAttribute('id', 'prevbtn');prevbtn.setAttribute('onclick', "prev()");prevbtn.textContent="<<";
       prevbtn.style.display="inline";
       movieDisplay.classList.add("movieDisplay");
       yearDisplay.classList.add("yearDisplay");
